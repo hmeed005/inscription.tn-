@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+.box-area{
+    width: 930px;   
+}
+.right-box{
+    padding: 40px 30px 40px 40px;   
+}
+::placeholder{
+    font-size: 16px;   
+}
+.rounded-4{
+    border-radius: 20px;   
+}
+.rounded-5{
+    border-radius: 30px;
+}
+.forgot a {
+    color: #b74b4b; 
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline; 
+}
+.right-box .btn-primary {
+    background-color: #b74b4b;
+    border-color: #b74b4b;
+    color: #fff; 
+}
+.right-box .btn-primary:hover {
+    background-color: #a63d3d;
+    border-color: #a63d3d;
+}
+@media only screen and (max-width: 768px){
+    .box-area{
+       margin: 0 10px;
+    }
+    .left-box{
+       height: 100px;
+       overflow: hidden;
+    }
+    .right-box{
+       padding: 20px;
+    }
+}
+.signup-link {
+    color: #b74b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+

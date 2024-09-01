@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.box-area {
+    width: 700px; /* Same width as Sign In page */
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup-form input::placeholder {
+    font-size: 16px;
+}
+
+.signup-form .btn-primary {
+    background-color: #b74b4b;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form .btn-primary:hover {
+    background-color: #a63d3d;
+}
+
+.forgot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgot a {
+    color: #b74b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .signup-form input {
+        font-size: 14px;
+    }
+
+    .signup-form .btn-primary {
+        padding: 12px;
+        font-size: 14px;
+    }
+}

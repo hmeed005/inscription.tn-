@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.box-area {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+.rounded-4 {
+    border-radius: 20px;
+}
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+.forgot a {
+    color: #b74b4b;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.right-box .btn-primary {
+    background-color: #b74b4b;
+    border-color: #b74b4b;
+    color: #fff;
+}
+
+.right-box .btn-primary:hover {
+    background-color: #a63d3d;
+    border-color: #a63d3d;
+}
+
+.white-box {
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Consistent height for all select elements */
+.form-select {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Custom widths */
+.form-select-date {
+    width: 80px;
+}
+
+.form-select-full-width {
+    width: 100%;
+}
+
+/* Ensuring proper alignment */
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

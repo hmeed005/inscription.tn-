@@ -1,0 +1,21 @@
+body {    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(255, 255, 255);
+    margin: 0; /* Remove default margin */
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.home-img img {
+    width: 500px; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: 0.3s ease;
+}
+
+
